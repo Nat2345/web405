@@ -1,145 +1,23 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>INTRO A HTML</title>
+    <title>MENU</title>
+    <link href="
+https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css
+" rel="stylesheet">
 </head>
-<body bgcolor="hotpink" text="white">
-    <a href="dos.html">IR A DOS</a>
-    <a href="https:/www.google.com" target="_blank"> GOOGLE</a>
-    <a href="miestilo.html" target="_blank"> Mi estilo</a>
-    <h1> NAT </h1>
-    <h2> NAT </h2>
-    <h3> NAT </h3>
-    <h4> NAT </h4>
-    <h5> NAT </h5>
-    <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta ducimus, delectus sed dolore nemo, eveniet dolores eius ad harum, tempora natus veniam praesentium repellat corrupti error unde deleniti reiciendis laborum.</p>
+<body>
+    <div class="container w-50 m-auto mt-5">
+        <h1 class="text-center text-light ">MENU </h1>
+        <a href="01/index.html" class="btn btn-primary d-block m-2 w-100">WEB</a>
+        <a href="02/index.html" class="btn btn-primary d-block m-2 w-100">CALCULADORA</a>
+        <a href="03/index.html" class="btn btn-primary d-block m-2 w-100">EJERCICIO 3</a>
+    </div>
+    <script src="
+https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js
+"></script>
     
-    <hr>
-    <marquee behavior="scroll"
-    direction="left">VIVA MEXICOOOOOOOOOOOOOOO</marquee>
-   <marquee behavior="scroll" 
-   direction="right">VIVA MEXICO</marquee>
-
-
-<ul type="square">
-    <li>NATT</li>
-    <li>NAT </li>
-</ul>
-
-<ol type="I">
-    <li>NAT</li>
-    <li>NAT</li>
-</ol>
-
-<img src="img/cecylogo.png" alt="" width="100px" height="100px">
-
-
-<table border="1" width="100%" cellspacing="0" cellpadding="10">
-    <tr>
-<td>NAT</td>
-    </tr>
-    <tr>
-        <td>NAT</td>
-
-    </tr>
-
-</table>
-<video src="img/video.mp4" width="320" height="240" controls> </video>
-
-<br>
-<br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uDfA5k0i0vc?si=cyJifMFmTKx8WH8f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
-<h1>FORMULARIOS</h1>
-<form action="procesar.php" method="post">
-    <label for="nombre">Nombre:</label>
-    <input type="text" id="nombre" name="nombre"><br><br>
-
-    <label for="nombre">Email:</label>
-    <input type="email" id="email" name="email"><br><br>
-
-    <nput type="button" value="Enviar">
-
-        <label for="password">Contraseña:</label>
-    <input type="password" id="password" name="password"><br><br>
-
-    <!-- Número -->
-    <label for="edad">Edad:</label>
-    <input type="number" id="edad" name="edad" min="1" max="120"><br><br>
-
-    <!-- Teléfono -->
-    <label for="telefono">Teléfono:</label>
-    <input type="tel" id="telefono" name="telefono"><br><br>
-
-    <!-- URL -->
-    <label for="web">Sitio web:</label>
-    <input type="url" id="web" name="web"><br><br>
-
-    <!-- Fecha -->
-    <label for="fecha">Fecha de nacimiento:</label>
-    <input type="date" id="fecha" name="fecha"><br><br>
-
-    <!-- Hora -->
-    <label for="hora">Hora:</label>
-    <input type="time" id="hora" name="hora"><br><br>
-
-    <!-- Color -->
-    <label for="color">Color favorito:</label>
-    <input type="color" id="color" name="color"><br><br>
-
-    <!-- Rango -->
-    <label for="rango">Nivel de satisfacción:</label>
-    <input type="range" id="rango" name="rango" min="0" max="10"><br><br>
-
-    <!-- Checkbox -->
-    <label>Intereses:</label><br>
-    <input type="checkbox" name="intereses" value="deporte"> Deporte<br>
-    <input type="checkbox" name="intereses" value="musica"> Música<br>
-    <input type="checkbox" name="intereses" value="cine"> Cine<br><br>
-
-    <!-- Radio buttons -->
-    <label>Género:</label><br>
-    <input type="radio" name="genero" value="masculino"> Masculino<br>
-    <input type="radio" name="genero" value="femenino"> Femenino<br>
-    <input type="radio" name="genero" value="otro"> Otro<br><br>
-
-    <!-- Select -->
-    <label for="pais">País:</label>
-    <select id="pais" name="pais">
-        <option value="">Selecciona</option>
-        <option value="mx">México</option>
-        <option value="es">España</option>
-        <option value="ar">Argentina</option>
-    </select><br><br>
-
-    <!-- Datalist -->
-    <label for="navegador">Navegador:</label>
-    <input list="navegadores" name="navegador">
-    <datalist id="navegadores">
-        <option value="Chrome">
-        <option value="Firefox">
-        <option value="Edge">
-    </datalist><br><br>
-
-    <!-- Textarea -->
-    <label for="comentarios">Comentarios:</label><br>
-    <textarea id="comentarios" name="comentarios" rows="4" cols="40"></textarea><br><br>
-
-    <!-- Archivo -->
-    <label for="archivo">Subir archivo:</label>
-    <input type="file" id="archivo" name="archivo"><br><br>
-
-    <!-- Botones -->
-    <input type="submit" value="Enviar">
-    <input type="reset" value="Limpiar">
-    <button type="button">Botón normal</button>
- 
-</form>
-
-
-
 </body>
 </html>
